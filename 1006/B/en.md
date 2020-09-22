@@ -42,13 +42,12 @@ table th:first-of-type {
 |input|
 |:------|
 |5 1<br>1 1 1 1 1|
-|output|
-|1|
-|5|
+|**output**|
+|1<br>5|
 
 |input|
 |:------|
 |4 2<br>1 2000 2000 2|
-|output|
+|**output**|
 |4000<br>2 2|
 
