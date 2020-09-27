@@ -1,9 +1,9 @@
-## <p align="center">B. Polycarp's Practice</p>
+## <center>B. Polycarp's Practice</center>
 
-<p align="center"> time limit per test: 2 seconds</p>
-<p align="center"> memory limit per test: 256 megabytes</p>
-<p align="center"> input: standard input</p>
-<p align="center"> output: standard output</p>
+<center> time limit per test: 2 seconds</center>
+<center> memory limit per test: 256 megabytes</center>
+<center> input: standard input</center>
+<center> output: standard output</center>
 
 Polycarp is practicing his problem solving skill. He has a list of $n$ problems with difficulties $a_1, a_2, \dots, a_n$, respectively. His plan is to practice for exactly $k$ days. Each day he has to solve at least one problem from his list. Polycarp solves the problems in the order they are given in his list, he cannot skip any problem from his list. He has to solve all $n$ problems in exactly $k$ days.
 
@@ -28,11 +28,7 @@ In the second line print exactly $k$ positive integers $t_1, t_2, \dots, t_k$ ($
 If there are many possible answers, you may print any of them.
 
 ### Examples
-<style>
-table th:first-of-type {
-    width: 1%;
-}
-</style>
+
 |input|
 |:------|
 |8 3<br>5 4 2 6 5 1 9 2|
@@ -42,12 +38,14 @@ table th:first-of-type {
 |input|
 |:------|
 |5 1<br>1 1 1 1 1|
-|**output**|
-|1<br>5|
+|output|
+|1|
+|5|
 
-|input|
-|:------|
-|4 2<br>1 2000 2000 2|
-|**output**|
-|4000<br>2 2|
+inputCopy
+4 2
+1 2000 2000 2
+outputCopy
+4000
+2 2
 
