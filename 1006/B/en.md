@@ -1,9 +1,9 @@
-## <center>B. Polycarp's Practice</center>
+## <p align="center">B. Polycarp's Practice</p>
 
-<center> time limit per test: 2 seconds</center>
-<center> memory limit per test: 256 megabytes</center>
-<center> input: standard input</center>
-<center> output: standard output</center>
+<p align="center"> time limit per test: 2 seconds</p>
+<p align="center"> memory limit per test: 256 megabytes</p>
+<p align="center"> input: standard input</p>
+<p align="center"> output: standard output</p>
 
 Polycarp is practicing his problem solving skill. He has a list of $n$ problems with difficulties $a_1, a_2, \dots, a_n$, respectively. His plan is to practice for exactly $k$ days. Each day he has to solve at least one problem from his list. Polycarp solves the problems in the order they are given in his list, he cannot skip any problem from his list. He has to solve all $n$ problems in exactly $k$ days.
 
