@@ -38,14 +38,13 @@ If there are many possible answers, you may print any of them.
 |input|
 |:------|
 |5 1<br>1 1 1 1 1|
-|output|
+|**output**|
 |1|
 |5|
 
-inputCopy
-4 2
-1 2000 2000 2
-outputCopy
-4000
-2 2
+|input|
+|:------|
+|4 2<br>1 2000 2000 2|
+|**output**|
+|4000<br>2 2|
 
