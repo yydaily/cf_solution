@@ -16,9 +16,9 @@ $$ (a-b)*(d-1) \equiv 0 \pmod w $$
 
 又因为 $gcd(d-1, w) = x,$ 所以 $ gcd(\frac{d-1}{x}, \frac{w}{x} = 1)$
 
-所以 $ c \% (w/x) = 0$
+所以 $ c \\% (w/x) = 0$
 
-所以 $ answer = \sum_{c=1}^{min(m,d) - 1} (min(m, d) - c) * [c\%\frac{w}{x}==0]$
+所以 $ answer = \sum_{c=1}^{min(m,d) - 1} (min(m, d) - c) * [c\\%\frac{w}{x}==0]$
 
 设$upper = min(m, d) - 1, d = \frac{w}{x}$ 的倍数( $d = 1$ 表示此时 $c = \frac{w}{x}$)，我们有
 
