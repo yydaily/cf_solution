@@ -6,7 +6,7 @@ $$ (a-b)*(d-1) \equiv 0 \pmod w $$
 
 设 $ x = gcd( d-1, w) $, 我们有 $(a-b) * (d-1) / x \equiv 0 \pmod {w/x}$
 
-$\because a \lt b, \therefore (b-a) *(d-1)/x \% (w/x) = 0$ 
+因为 $ a \lt b,$ 所以 $ (b-a) *(d-1)/x \% (w/x) = 0$ 
 
 然后我们考虑 $a, b$ 的取值范围，可以发现 $1 \leq a, b \leq min(m, d) $
 
@@ -14,11 +14,11 @@ $\because a \lt b, \therefore (b-a) *(d-1)/x \% (w/x) = 0$
 
 上式可转换为 $c * (d-1) / x \% (w/x) = 0$。
 
-又 $\because gcd(d-1, w) = x, \therefore gcd(\frac{d-1}{x}, \frac{w}{x} = 1)$
+又因为 $gcd(d-1, w) = x,$ 所以 $ gcd(\frac{d-1}{x}, \frac{w}{x} = 1)$
 
-$\therefore c \% (w/x) = 0$
+所以 $ c \% (w/x) = 0$
 
-$\therefore answer = \sum_{c=1}^{min(m,d) - 1} (min(m, d) - c) * [c\%\frac{w}{x}==0]$
+所以 $ answer = \sum_{c=1}^{min(m,d) - 1} (min(m, d) - c) * [c\%\frac{w}{x}==0]$
 
 设$upper = min(m, d) - 1, d = \frac{w}{x}$ 的倍数( $d = 1$ 表示此时 $c = \frac{w}{x}$)，我们有
 
