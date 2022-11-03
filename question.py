@@ -7,10 +7,10 @@ import sys
 m = {}
 
 def print_usage():
-	print'''USAGE
+	print('''USAGE
 python question.py get 1800 2400	: get a problem which score is in [1800,2400]
-python question.py get low/mid/high	: get a problem where score is in [0,1700]/[1800,2400]/[2400,inf)
-python question.py add 1 A			: remark the problem 1/A has been solved'''
+python question.py get low/mid/high	: get a problem where score is in [0,1700]/[1800,2400]/[2500,inf)
+python question.py add 1 A			: remark the problem 1/A has been solved''')
 
 def solve(question):
 	params = question.split('/')
